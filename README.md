@@ -1,70 +1,107 @@
-# Getting Started with Create React App
+# ❌⭕ Tic-Tac-Toe
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
 
-## Available Scripts
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=for-the-badge)
 
-In the project directory, you can run:
+**A simple Tic-Tac-Toe game built with React.js**
 
-### `npm start`
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 👤 About
 
-### `npm test`
+A classic **Tic-Tac-Toe** (X and O) game built with React.js. Two players take turns clicking on the 3x3 grid. The game shows whose turn it is and has a Reset button to start over.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+> This is a **practice project** to learn React concepts like `useState`, event handling, and component logic.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ✨ Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- 🎮 **Two Player Game** — Player X vs Player O
+- 👁 **Next Player Display** — Shows who plays next
+- 🏆 **Winner Detection** — Detects when someone wins
+- 🔄 **Reset Button** — Restart the game anytime
+- 📱 **Responsive** — Works on mobile and desktop
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🛠 Tech Stack
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+| Technology | Usage |
+|---|---|
+| React.js | Game logic & UI components |
+| JavaScript (ES6+) | useState hook & game functions |
+| CSS3 | Styling the board and buttons |
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📁 Project Structure
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+tic-tac-toe/
+│
+├── 📁 node_modules/
+├── 📁 public/
+│
+├── 📁 src/
+│   ├── App.js          # Main game logic
+│   ├── App.css         # Game styles
+│   ├── index.js        # React entry point
+│   ├── index.css       # Global styles
+│   └── logo.svg        # React logo
+│
+├── .gitignore
+├── package.json
+├── package-lock.json
+└── README.md
+```
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## ⚙️ Installation
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+# 1. Clone the repo
+git clone https://github.com/afghanyarrami-bit/tic-tac-toe.git
 
-### Code Splitting
+# 2. Go into the folder
+cd tic-tac-toe
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# 3. Install packages
+npm install
 
-### Analyzing the Bundle Size
+# 4. Start the app
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Open **http://localhost:3000** in your browser.
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🎮 How to Play
 
-### Advanced Configuration
+1. Player **X** goes first — click any empty square
+2. Player **O** goes next
+3. First to get **3 in a row** wins (horizontal, vertical or diagonal)
+4. Click **Reset Game** to play again
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## 📬 Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+**Ramin Afghanyar** — Junior Front-End Developer 🇨🇭 Switzerland
 
-### `npm run build` fails to minify
+[![GitHub](https://img.shields.io/badge/GitHub-afghanyarrami--bit-black?style=flat&logo=github)](https://github.com/afghanyarrami-bit)
+[![Email](https://img.shields.io/badge/Email-afghanyarrami@gmail.com-red?style=flat&logo=gmail)](mailto:afghanyarrami@gmail.com)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## 📄 License
+
+MIT License © 2025 Ramin Afghanyar
